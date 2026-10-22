@@ -1,19 +1,27 @@
-# Chrome Dino — standalone runner
+🦖 Play Dino
 
-A standalone browser version of the classic T-Rex runner, based on the community extraction of Chromium's offline runner. The original BSD-style license and attribution are preserved in `LICENSE`.
+A lightweight browser-based dinosaur runner inspired by Chrome's classic offline dinosaur game.
 
-## Run locally
+🎮 Play online: https://playdino.vercel.app
 
-Open `index.html` in a modern browser. If your browser blocks local resources, serve this folder with any static HTTP server.
+✨ Features
 
-## Controls
+- 🏃 Jump over obstacles and keep your run going.
+- 🦆 Duck to avoid obstacles.
+- 🎮 Toggle immortality on or off using the J key.
+- 🏆 Your best score is saved in your browser.
+- 📱 Play on desktop or mobile browsers.
+- 🚫 No ads.
 
-- **Space / Up Arrow:** jump or start
-- **Down Arrow:** duck
-- **J:** toggle immortality on/off. When off, the next collision ends the run normally.
+🎮 Controls
 
-The best score is saved in browser local storage as you play.
+Action| Control
+Start / Jump| "Space" or "↑"
+Duck| "↓"
+Toggle immortality| "J"
 
-## Deploy to Vercel
+When immortality is turned off, collisions can end the run normally.
 
-Import this folder/repository as a static project. No build command is required; the output directory is the project root.
+📄 Credits and License
+
+This project is based on a community extraction of Chromium's offline runner. See the "LICENSE" file for the original license and attribution.
