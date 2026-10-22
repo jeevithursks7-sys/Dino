@@ -223,6 +223,8 @@ html, body {
     width: 46px;
     height: 46px;
     right: max(12px, env(safe-area-inset-right));
-    bottom: max(12px, env(safe-area-inset-bottom));
+    /* Keep the toggle beside the game area on phones instead of at the bottom. */
+    top: clamp(145px, 27vh, 220px);
+    bottom: auto;
   }
 }
